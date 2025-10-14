@@ -1,0 +1,908 @@
+#background {
+  /* width: 1920px;
+  height: 4982px; */
+  /* height: 100vw; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#menu {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 100%;
+  background-color: #f5f5f7;
+}
+#store {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#store {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#mac {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#ipad {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#iphone {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#watch {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#vision {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#airpods {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#tvhome {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#entertainment {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#accessories {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#support {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  height: 52px;
+  width: 100%;
+}
+#first {
+  background-image: url(./Background.png);
+  width: 100vw;
+  height: 692px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#text1 {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  translate: -50% 0;
+  width: 405px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#pro {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: white;
+}
+#hello1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+#learn {
+  display: flex;
+  gap: 16px;
+}
+#more {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: #0071e3;
+  height: 44px;
+  width: 123px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buy {
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  height: 44px;
+  width: 68px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#second {
+  background-image: url(./iphone17.png);
+  width: 100vw;
+  height: 692px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#text2 {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  translate: -50% 0;
+  width: 405px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#normal {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: white;
+}
+#hello2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+#learn1 {
+  display: flex;
+  gap: 16px;
+}
+#more1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: #0071e3;
+  height: 44px;
+  width: 123px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buy1 {
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  height: 44px;
+  width: 68px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#third {
+  background-image: url(./gift-magic-desktop.jpeg);
+  /* background-image: url(./giftmagic.png); */
+  width: 100vw;
+  height: 692px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+#text3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 164px;
+  width: 405px;
+  /* position: relative;
+  top: 446px;
+  left: 920px; */
+}
+#giftmagic {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+}
+#holiday {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+#shopgifts {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #0071e3;
+  border-radius: 999px;
+  height: 44px;
+  width: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#other {
+  display: flex;
+  width: 100%;
+  position: relative;
+  gap: 12px;
+}
+#one {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 12px;
+}
+#airpod4 {
+  height: 580px;
+  width: 50vw;
+  background-image: url(./airpods4.jpeg);
+  /* background-image: url(./ipad.png); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+#macbookair {
+  height: 580px;
+  width: 50vw;
+  /* background-image: url(./watch.png); */
+  background-image: url(./macbookAir.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+#deal {
+  height: 580px;
+  width: 50vw;
+  background-image: url(./carrierDeals.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
+
+#two {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#watch10 {
+  height: 580px;
+  width: 50vw;
+  background-image: url(./applewatch.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+#business {
+  height: 580px;
+  width: 50vw;
+  background-image: url(./smallBusiness.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+#trade {
+  height: 580px;
+  width: 50vw;
+  background-image: url(./trade.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+#slide {
+  height: 668px;
+  width: 100vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+.dot {
+  background-color: gray;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 12px;
+}
+#number1 {
+  background-image: url(./napoleon.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number2 {
+  background-image: url(./bad-monkey.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+
+#number3 {
+  background-image: url(./instigators.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number4 {
+  background-image: url(./k-pop-idols.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number5 {
+  background-image: url(./season-pass.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number6 {
+  background-image: url(./pressumed-innocent.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number7 {
+  background-image: url(./pachinko.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number8 {
+  background-image: url(./baseball.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number9 {
+  background-image: url(./lady-in-the-lake.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+#number10 {
+  background-image: url(./morning-show.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 668px;
+  width: 1250px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+
+#name1 {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 600;
+}
+#name2 {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+#name3 {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 600;
+}
+#name4 {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  display: flex;
+  font-size: 36px;
+  font-weight: 600;
+  gap: 7px;
+  margin-top: 40px;
+}
+#applelogo {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+}
+#watchname {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 600;
+}
+#name5 {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+#name6 {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 600;
+  display: flex;
+  gap: 7px;
+  margin-top: 40px;
+}
+#introduction1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+#introduction2 {
+  font-family: "Inter", sans-serif;
+}
+#introduction3 {
+  font-family: "Inter", sans-serif;
+}
+#introduction4 {
+  font-family: "Inter", sans-serif;
+}
+#introduction4-2 {
+  font-family: "Inter", sans-serif;
+}
+#introduction5 {
+  font-family: "Inter", sans-serif;
+}
+#introduction6 {
+  font-family: "Inter", sans-serif;
+}
+#applelogo2 {
+}
+#tradename {
+  font-family: "Inter", sans-serif;
+}
+#options {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 58px;
+}
+#optionss {
+  display: flex;
+  gap: 16px;
+}
+#learnmore {
+  color: white;
+  background-color: #0071e3;
+  height: 40px;
+  width: 115px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+#purchase {
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 40px;
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+#learnmore2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #0071e3;
+  border-radius: 999px;
+}
+#learnmore3 {
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 167px;
+  height: 40px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #0071e3;
+  border-radius: 999px;
+}
+
+#small-slides {
+  height: 236px;
+  width: 100vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+#small1 {
+  background-image: url(./1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  width: 196px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  /* flex-shrink: 0; */
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  display: flex;
+}
+#small2 {
+  background-image: url(./2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  width: 196px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  /* flex-shrink: 0; */
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: black;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small3 {
+  background-image: url(./3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 236px;
+  width: 417px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small4 {
+  background-image: url(./4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 236px;
+  width: 417px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small5 {
+  background-image: url(./5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 236px;
+  width: 417px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small6 {
+  background-image: url(./6.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 236px;
+  width: 417px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small7 {
+  background-image: url(./7.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 236px;
+  width: 417px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small8 {
+  background-image: url(./8.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  width: 196px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  /* flex-shrink: 0; */
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: black;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small9 {
+  background-image: url(./9.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 236px;
+  width: 417px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small10 {
+  background-image: url(./10.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  width: 196px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  /* flex-shrink: 0; */
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: black;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back1 {
+  background-color: rgb(20, 40, 56);
+  height: 236px;
+  width: 417px;
+  flex-shrink: 0;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: white;
+  position: relative;
+}
+#back2 {
+  height: 236px;
+  width: 417px;
+  background-color: #eae6e1;
+  flex-shrink: 0;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+/* #back3 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back4 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back5 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back6 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back7 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+} */
+#back8 {
+  height: 236px;
+  width: 417px;
+  background-color: rgb(64, 13, 14);
+  flex-shrink: 0;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back10 {
+  height: 236px;
+  width: 417px;
+  background-color: rgb(38, 38, 38);
+  flex-shrink: 0;
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#small-text1 {
+  display: flex;
+  left: 230px;
+  position: relative;
+  bottom: 100px;
+}
+#small-text2 {
+  display: flex;
+  left: 230px;
+  position: relative;
+  bottom: 100px;
+}
+#small-text8 {
+  display: flex;
+  left: 230px;
+  position: relative;
+  bottom: 100px;
+}
+#small-text10 {
+  display: flex;
+  left: 230px;
+  position: relative;
+  bottom: 100px;
+}
+#all-text {
+  display: flex;
+  margin-top: 195px;
+  margin-left: 10px;
+}
