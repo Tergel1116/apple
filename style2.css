@@ -93,8 +93,12 @@
   background-image: url(./store-header.png);
   height: 75px;
   width: 100vw;
+  background-position: center;
+  background-size: cover;
 }
 #background2 {
+  /* width: 100vw;
+  height: 100vw; */
 }
 #gift {
   font-family: "Inter", sans-serif;
@@ -128,7 +132,8 @@
   justify-content: space-between;
 }
 #visit {
-  margin-left: 90px;
+  margin-left: 55px;
+  margin-top: 20px;
 }
 #ask {
   margin-top: 20px;
@@ -165,53 +170,372 @@
   font-size: 14px;
   font-weight: 400;
 }
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
 #images {
   display: flex;
   flex-direction: row;
+  position: relative;
+  top: 100px;
+  left: 140px;
+  gap: 20px;
 }
 #first {
   background-image: url(./first.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
+  overflow-x: scroll;
 }
 #second {
   background-image: url(./second.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #third {
+  background-image: url(./third.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #fourth {
+  background-image: url(./fourth.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #fifth {
+  background-image: url(./fifth.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #sixth {
+  background-image: url(./sixth.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #seventh {
+  background-image: url(./seventh.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #eight {
+  background-image: url(./eight.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #ninth {
+  background-image: url(./ninth.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #tenth {
+  background-image: url(./tenth.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
 }
 #eleventh {
+  background-image: url(./eleventh.png);
   width: 120px;
   height: 78px;
+  background-position: center;
+  background-size: cover;
+}
+#latest {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-size: 24px;
+  position: relative;
+  top: 160px;
+  left: 140px;
+}
+#the {
+  color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+}
+#all-intelligence {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+  top: 190px;
+  left: 140px;
+}
+#intelligence1 {
+  background-image: url(./latest1.jpg);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  gap: 12px;
+}
+#intelligence2 {
+  background-image: url(./latest2.jpg);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  gap: 12px;
+}
+#intelligence3 {
+  background-image: url(./latest3.jpg);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  gap: 12px;
+}
+#intelligence4 {
+  background-image: url(./latest4.jpg);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  gap: 12px;
+}
+#shar1 {
+  font-family: "Inter", sans-serif;
+  color: #b64400;
+  height: 24px;
+  width: 204px;
+}
+#word1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+#price1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#word2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+#price2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+#shar3 {
+  font-family: "Inter", sans-serif;
+  color: #b64400;
+  height: 24px;
+  width: 204px;
+}
+#word3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+#price3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+#shar4 {
+  font-family: "Inter", sans-serif;
+  color: #b64400;
+  height: 24px;
+  width: 204px;
+}
+#word4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+#price4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+#head1 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+#head2 {
+  position: relative;
+  top: 55px;
+  left: 30px;
+}
+#head3 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+#head4 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+#the2 {
+  color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+#latest2 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-size: 24px;
+  position: relative;
+  top: 230px;
+  left: 140px;
+}
+#person {
+  display: flex;
+  position: relative;
+  top: 250px;
+  left: 140px;
+  gap: 20px;
+}
+#person1 {
+}
+#person1-1 {
+  background-image: url(./person1.jpg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+}
+#person1-2 {
+}
+#person1-3 {
+}
+#person1-4 {
+}
+#person2 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#person2-1 {
+  background-image: url(./person2.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#person2-2 {
+}
+#person2-3 {
+}
+#person2-4 {
+}
+#person3 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#person3-1 {
+  background-image: url(./person3.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#person3-2 {
+}
+#person3-3 {
+}
+#person3-4 {
+}
+#person4 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#person4-1 {
+  background-image: url(./person4.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#person4-2 {
+}
+#person4-3 {
+}
+#person4-4 {
+}
+#person5 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#person5-1 {
+  background-image: url(./person5.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#person5-2 {
+}
+#person5-3 {
+}
+#person5-4 {
 }
