@@ -1,7 +1,7 @@
 #background {
-  /* width: 1920px;
-  height: 4982px; */
-  height: 100vw;
+  /* width: 1920px; */
+  /* height: 4982px; */
+  height: 400vw;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -97,8 +97,8 @@
   background-size: cover;
 }
 #background2 {
-  /* width: 100vw;
-  height: 100vw; */
+  width: 100vw;
+  height: 100vw;
 }
 #gift {
   font-family: "Inter", sans-serif;
@@ -289,6 +289,7 @@ a {
   position: relative;
   top: 190px;
   left: 140px;
+  overflow-x: scroll;
 }
 #intelligence1 {
   background-image: url(./latest1.jpg);
@@ -331,6 +332,7 @@ a {
   color: #b64400;
   height: 24px;
   width: 204px;
+  font-size: 12px;
 }
 #word1 {
   font-family: "Inter", sans-serif;
@@ -358,6 +360,7 @@ a {
   color: #b64400;
   height: 24px;
   width: 204px;
+  font-size: 12px;
 }
 #word3 {
   font-family: "Inter", sans-serif;
@@ -374,6 +377,7 @@ a {
   color: #b64400;
   height: 24px;
   width: 204px;
+  font-size: 12px;
 }
 #word4 {
   font-family: "Inter", sans-serif;
@@ -394,6 +398,9 @@ a {
   position: relative;
   top: 55px;
   left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 #head3 {
   position: relative;
@@ -404,6 +411,15 @@ a {
   position: relative;
   top: 30px;
   left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#wordss {
+  width: 390px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 #the2 {
   color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
@@ -425,12 +441,32 @@ a {
   top: 230px;
   left: 140px;
 }
+#the3 {
+  color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+}
+#latest3 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-size: 24px;
+  position: relative;
+  top: 290px;
+  left: 140px;
+}
 #person {
   display: flex;
   position: relative;
   top: 250px;
   left: 140px;
   gap: 20px;
+  overflow-x: scroll;
 }
 #person1 {
 }
@@ -440,13 +476,20 @@ a {
   width: 400px;
   background-position: center;
   background-size: cover;
+  border-radius: 18px;
 }
 #person1-2 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  height: 66px;
+  width: 197px;
+  position: relative;
+  display: flex;
+  top: 53px;
+  left: 30px;
 }
-#person1-3 {
-}
-#person1-4 {
-}
+
 #person2 {
   background-color: #ffffff;
   height: 500px;
@@ -464,11 +507,60 @@ a {
   background-position: center;
   background-size: cover;
 }
+
 #person2-2 {
+  display: flex;
+  gap: 7px;
+  width: 253px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#max1 {
+  background-image: url(max1.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#max2 {
+  background-image: url(max2.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#max3 {
+  background-image: url(max3.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#max4 {
+  background-image: url(max4.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#max5 {
+  background-image: url(max5.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
 }
 #person2-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
 }
 #person2-4 {
+}
+#person2-5 {
 }
 #person3 {
   background-color: #ffffff;
@@ -486,12 +578,20 @@ a {
   width: 230px;
   background-position: center;
   background-size: cover;
+  position: relative;
+  bottom: 30px;
 }
 #person3-2 {
 }
 #person3-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
 }
 #person3-4 {
+}
+#person3-5 {
 }
 #person4 {
   background-color: #ffffff;
@@ -509,12 +609,20 @@ a {
   width: 230px;
   background-position: center;
   background-size: cover;
+  position: relative;
+  bottom: 30px;
 }
 #person4-2 {
 }
 #person4-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
 }
 #person4-4 {
+}
+#person4-5 {
 }
 #person5 {
   background-color: #ffffff;
@@ -532,10 +640,908 @@ a {
   width: 230px;
   background-position: center;
   background-size: cover;
+  position: relative;
+  bottom: 30px;
 }
 #person5-2 {
 }
 #person5-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
 }
 #person5-4 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+#person5-5 {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+#words3 {
+  height: 109px;
+  width: 257px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  top: 60px;
+}
+#words2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 61px;
+  width: 257px;
+}
+#wordss1 {
+  height: 109px;
+  width: 257px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  top: 35px;
+}
+#wordss2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 61px;
+  width: 257px;
+}
+#holiday {
+  display: flex;
+  position: relative;
+  top: 310px;
+  left: 140px;
+  gap: 20px;
+  overflow-x: scroll;
+}
+#holiday1-1 {
+  background-image: url(./holiday1.jpg);
+  height: 500px;
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+}
+#holiday1-2 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  height: 66px;
+  width: 326px;
+  position: relative;
+  display: flex;
+  top: 53px;
+  left: 30px;
+}
+
+#holiday2 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#holiday2-1 {
+  background-image: url(./holiday2.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#holiday2-2 {
+  display: flex;
+  gap: 7px;
+  width: 253px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#holiday2-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+#holiday2-4 {
+}
+#holiday2-5 {
+}
+#holiday3 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#holiday3-1 {
+  background-image: url(./holiday3.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#holiday3-2 {
+  display: flex;
+  gap: 7px;
+  width: 253px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#holiday3-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+#holiday3-4 {
+}
+#holiday3-5 {
+}
+#holiday4 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#holiday4-1 {
+  background-image: url(./holiday4.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#holiday4-2 {
+  display: flex;
+  gap: 7px;
+  width: 253px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#holiday4-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+#holiday4-4 {
+}
+#holiday4-5 {
+}
+#holiday5 {
+  background-color: #ffffff;
+  height: 500px;
+  width: 313px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#holiday5-1 {
+  background-image: url(./holiday5.jpg);
+  height: 230px;
+  width: 230px;
+  background-position: center;
+  background-size: cover;
+}
+#holiday5-2 {
+  display: flex;
+  gap: 7px;
+  width: 253px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#holiday5-3 {
+  color: #b64400;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+#holiday5-4 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+#holiday5-5 {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+#picks3 {
+  height: 109px;
+  width: 257px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  top: 30px;
+}
+#picks2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 61px;
+  width: 257px;
+}
+#picks5 {
+  height: 109px;
+  width: 257px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  top: 45px;
+}
+#picks6 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 61px;
+  width: 257px;
+}
+#add2-1 {
+  background-image: url(./shar.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add2-2 {
+  background-image: url(./tsenher.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add2-3 {
+  background-image: url(./nogoon.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add2-4 {
+  background-image: url(./yagaan.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add2-5 {
+  background-image: url(./saaral.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add2-6 {
+  background-image: url(./huren.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add3-1 {
+  background-image: url(./tsenher2.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add3-2 {
+  background-image: url(./shar2.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add3-3 {
+  background-image: url(./har2.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add3-4 {
+  background-image: url(./ulbar2.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add3-5 {
+  background-image: url(./tsagaan2.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add4-1 {
+  background-image: url(./saaral3.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add4-2 {
+  background-image: url(./ngooon3.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add4-3 {
+  background-image: url(./tsenher3.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add4-4 {
+  background-image: url(./yagaan3.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add5-1 {
+  background-image: url(./har4.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add5-2 {
+  background-image: url(./tsenher4.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#add5-3 {
+  background-image: url(./yagaan4.jpg);
+  height: 12px;
+  width: 12px;
+  background-position: center;
+  background-size: cover;
+}
+#only {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-size: 24px;
+  position: relative;
+  top: 350px;
+  left: 140px;
+}
+#at {
+  color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+}
+#apple {
+  display: flex;
+  position: relative;
+  top: 380px;
+  gap: 20px;
+  left: 140px;
+  overflow-x: scroll;
+}
+#apple1 {
+  background-image: url(./only1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+}
+#apple1-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  height: 130px;
+  width: 305px;
+  position: relative;
+  top: 50px;
+  left: 30px;
+  display: flex;
+}
+#apple2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#apple2-1 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#apple2-2 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#apple3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+#apple3-1 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#apple3-2 {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#apple4 {
+  background-image: url(./only4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+}
+#apple4-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  color: #6e6e73;
+  font-size: 12px;
+}
+#apple4-2 {
+  font-size: 25px;
+  width: 330px;
+  height: 96px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 30px;
+
+  font-size: 25px;
+}
+#apple5 {
+  background-image: url(./only5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 480px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+#apple5-1 {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  color: #6e6e73;
+  font-size: 12px;
+}
+#apple5-2 {
+  height: 66px;
+  width: 361px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  font-size: 25px;
+}
+#apple2-word1 {
+  height: 84px;
+  width: 238px;
+}
+#apple2-word2 {
+  height: 84px;
+  width: 200px;
+}
+#apple3-word1 {
+  height: 84px;
+  width: 230px;
+}
+#apple3-word2 {
+  height: 112px;
+  width: 244px;
+}
+#only1 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-size: 24px;
+  position: relative;
+  top: 450px;
+  left: 140px;
+  height: 66px;
+  width: 831px;
+}
+#at1 {
+  color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+}
+#special {
+  display: flex;
+  position: relative;
+  top: 420px;
+  gap: 20px;
+  left: 140px;
+}
+#special1 {
+  background-image: url(./the1.jpg);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+}
+#special1-triple {
+  position: relative;
+  top: 32px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#special1-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73;
+  height: 14px;
+  width: 98px;
+}
+#special1-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  width: 275px;
+  height: 66px;
+}
+#special1-3 {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  height: 41px;
+  width: 249px;
+}
+#special2 {
+  background-image: url(./the2.png);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+}
+#special2-double {
+  position: relative;
+  top: 32px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#special2-1 {
+  color: #f5f5f7;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+#special2-2 {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+#special3 {
+  background-image: url(./the3.jpg);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+}
+#special3-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  position: relative;
+  top: 58px;
+  left: 30px;
+}
+#special4 {
+  background-image: url(./the4.jpg);
+  height: 500px;
+  width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+}
+#special4-double {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+  top: 32px;
+  left: 30px;
+}
+#special4-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #6e6e73;
+}
+#special4-2 {
+  width: 384px;
+  height: 96px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+#only2 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-size: 24px;
+  position: relative;
+  top: 410px;
+  left: 140px;
+}
+#at2 {
+  color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  color: transparent;
+}
+#experience {
+  display: flex;
+  position: relative;
+  top: 470px;
+  gap: 20px;
+  left: 140px;
+}
+#exp1 {
+  background-image: url(./saving1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 18px;
+}
+#exp1-1 {
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-weight: 700;
+  font-size: 12px;
+}
+#exp1-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+
+  width: 320px;
+  height: 96px;
+}
+#exp1-3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+#exp2 {
+  background-image: url(./saving2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 18px;
+}
+#exp2-1 {
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-weight: 700;
+  font-size: 12px;
+}
+#exp2-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  height: 64px;
+  width: 330px;
+}
+#exp3 {
+  background-image: url(./saving3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 18px;
+}
+#exp3-1 {
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-weight: 700;
+  font-size: 12px;
+}
+#exp3-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  height: 96px;
+  width: 337px;
+}
+#exp4 {
+  background-image: url(./saving4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 18px;
+}
+#exp4-1 {
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-weight: 700;
+  font-size: 12px;
+}
+#exp4-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  height: 96px;
+  width: 290px;
+}
+#exp5 {
+  background-image: url(./saving5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 18px;
+}
+#exp5-1 {
+  font-family: "Inter", sans-serif;
+  color: #6e6e73;
+  font-weight: 700;
+  font-size: 12px;
+}
+#exp5-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  height: 96px;
+  width: 340px;
+}
+#exp1-double {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  top: 31px;
+  left: 30px;
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 540px;
+  gap: 24px;
+  left: 140px;
+}
+#footer1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+#footer2 {
+  display: flex;
+  gap: 12px;
+}
+#footer2-1 {
+  border: 1px solid #1d1d1f;
+  color: #1d1d1f;
+  border-radius: 999px;
+  height: 40px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#footer2-2 {
+  border: 1px solid #1d1d1f;
+  color: #1d1d1f;
+  border-radius: 999px;
+  height: 40px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#footer2-3 {
+  border: 1px solid #1d1d1f;
+  color: #1d1d1f;
+  border-radius: 999px;
+  height: 40px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#footer2-4 {
+  border: 1px solid #1d1d1f;
+  color: #1d1d1f;
+  border-radius: 999px;
+  height: 40px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }

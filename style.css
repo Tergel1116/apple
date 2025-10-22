@@ -382,7 +382,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
   margin-bottom: 12px;
 }
 #number1 {
@@ -907,5 +906,1324 @@ a {
   margin-top: 195px;
   margin-left: 10px;
 }
-/* #dfsdfsdfd {
+#navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+#nav-triple {
+  display: flex;
+  gap: 24px;
+}
+#text3-tab {
+  display: none;
+}
+/* tablet responsive */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  #navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    display: none;
+  }
+  #store-a {
+    display: none;
+  }
+  #menu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  #ad {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    display: flex;
+    gap: 10px;
+    width: 444px;
+    line-height: 20px;
+  }
+  #first {
+    background-image: url(./tab1.jpg);
+  }
+  #second {
+    background-image: url(./tab2.jpg);
+  }
+  #third {
+    background-image: url(./tab3.jpg);
+  }
+  #text3 {
+    display: none;
+  }
+  #text3-tab {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+  }
+  #hello2-tab {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  #other {
+  }
+  #one {
+  }
+  #two {
+  }
+  #airpod4 {
+    background-image: url(./pad1.jpg);
+  }
+  #macbookair {
+    background-image: url(./pad3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #deal {
+    background-image: url(./pad5.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #watch10 {
+    background-image: url(./pad2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #business {
+    background-image: url(./pad4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  #trade {
+    background-image: url(./pad6.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #name1 {
+    font-size: 30px;
+  }
+  #introduction1 {
+    font-size: 18px;
+    height: 109px;
+    width: 249px;
+  }
+  #learnmore {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  #purchase {
+    height: 36px;
+    width: 66px;
+    font-size: 14px;
+  }
+  #options {
+    position: relative;
+    bottom: 40px;
+  }
+  #name2 {
+    font-size: 30px;
+  }
+  #introduction2 {
+    font-size: 18px;
+  }
+  #learnmore {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  #purchase {
+    height: 36px;
+    width: 66px;
+    font-size: 14px;
+  }
+  #name3 {
+    font-size: 30px;
+  }
+  #introduction3 {
+    font-size: 18px;
+    height: 60px;
+    width: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #learnmore2 {
+    height: 36px;
+    width: 126px;
+    font-size: 14px;
+    position: relative;
+    top: 40px;
+  }
+  #watchname {
+    font-size: 30px;
+  }
+  #applelogo {
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+  }
+  #introduction4 {
+    font-size: 18px;
+  }
+  #introduction4-2 {
+    font-size: 18px;
+  }
+  #learnmore {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  #purchase {
+    height: 36px;
+    width: 66px;
+    font-size: 14px;
+  }
+  #name5 {
+    font-size: 30px;
+  }
+  #introduction5 {
+    font-size: 18px;
+  }
+  #learnmore {
+  }
+  #name6 {
+    font-size: 30px;
+  }
+  #tradename {
+  }
+  #introduction6 {
+    font-size: 18px;
+  }
+  #learnmore3 {
+    height: 36px;
+    width: 150px;
+    font-size: 14px;
+  }
+  #slide {
+    height: 368px;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  #number1 {
+    background-image: url(./ts.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number2 {
+    background-image: url(./ts2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number3 {
+    background-image: url(./ts3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number4 {
+    background-image: url(./ts4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number5 {
+    background-image: url(./ts5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number6 {
+    background-image: url(./ts6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number7 {
+    background-image: url(./ts7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number8 {
+    background-image: url(./ts8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number9 {
+    background-image: url(./ts9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number10 {
+    background-image: url(./ts10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #small-slides {
+    height: 194px;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  #small1 {
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    display: flex;
+  }
+  #small2 {
+    background-image: url(./2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small3 {
+    background-image: url(./3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small4 {
+    background-image: url(./4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small5 {
+    background-image: url(./5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small6 {
+    background-image: url(./6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small7 {
+    background-image: url(./7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small8 {
+    background-image: url(./8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small9 {
+    background-image: url(./9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small10 {
+    background-image: url(./10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #back1 {
+    background-color: rgb(20, 40, 56);
+    height: 161px;
+    width: 286px;
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: white;
+    position: relative;
+  }
+  #back2 {
+    height: 161px;
+    width: 286px;
+    background-color: #eae6e1;
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  /* #back3 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back4 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back5 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back6 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back7 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
 } */
+  #back8 {
+    height: 161px;
+    width: 286px;
+    background-color: rgb(64, 13, 14);
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #back10 {
+    height: 161px;
+    width: 286px;
+    background-color: rgb(38, 38, 38);
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small-text1 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+  #small-text2 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+  #small-text8 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+  #small-text10 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+
+  #all-text {
+    display: flex;
+    margin-top: 135px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+/* mobile responsive */
+@media only screen and (max-width: 767px) {
+  #navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    display: none;
+  }
+  #store-a {
+    display: none;
+  }
+  #menu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  #ad {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    display: flex;
+    gap: 10px;
+    width: 444px;
+    line-height: 20px;
+  }
+  #first {
+    background-image: url(./ph1.jpg);
+  }
+  #second {
+    background-image: url(./ph2.jpg);
+  }
+  #third {
+    background-image: url(./ph3.jpg);
+  }
+  #text1 {
+    position: relative;
+    top: 470px;
+  }
+  #text3 {
+    display: none;
+  }
+  #text3-tab {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+  }
+  #hello2-tab {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  #text1 {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  translate: -50% 0;
+  width: 405px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#pro {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+#hello1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+#learn {
+  display: flex;
+  gap: 16px;
+}
+#more {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: #0071e3;
+  height: 44px;
+  width: 123px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buy {
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  height: 44px;
+  width: 68px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text2 {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  translate: -50% 0;
+  width: 405px;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#normal {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: white;
+}
+#hello2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  display: flex;
+}
+#learn1 {
+  display: flex;
+  gap: 16px;
+}
+#more1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: #0071e3;
+  height: 44px;
+  width: 123px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#buy1 {
+  color: #2997ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  height: 44px;
+  width: 68px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+#text3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 164px;
+  width: 405px;
+  /* position: relative;
+  top: 446px;
+  left: 920px; */
+}
+#giftmagic {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+}
+#holiday {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+#shopgifts {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #0071e3;
+  border-radius: 999px;
+  height: 44px;
+  width: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  #other {
+  }
+  #one {
+  }
+  #two {
+  }
+  #airpod4 {
+    background-image: url(./pad1.jpg);
+  }
+  #macbookair {
+    background-image: url(./pad3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #deal {
+    background-image: url(./pad5.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #watch10 {
+    background-image: url(./pad2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #business {
+    background-image: url(./pad4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  #trade {
+    background-image: url(./pad6.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  #name1 {
+    font-size: 30px;
+  }
+  #introduction1 {
+    font-size: 18px;
+    height: 109px;
+    width: 249px;
+  }
+  #learnmore {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  #purchase {
+    height: 36px;
+    width: 66px;
+    font-size: 14px;
+  }
+  #options {
+    position: relative;
+    bottom: 40px;
+  }
+  #name2 {
+    font-size: 30px;
+  }
+  #introduction2 {
+    font-size: 18px;
+  }
+  #learnmore {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  #purchase {
+    height: 36px;
+    width: 66px;
+    font-size: 14px;
+  }
+  #name3 {
+    font-size: 30px;
+  }
+  #introduction3 {
+    font-size: 18px;
+    height: 60px;
+    width: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #learnmore2 {
+    height: 36px;
+    width: 126px;
+    font-size: 14px;
+    position: relative;
+    top: 40px;
+  }
+  #watchname {
+    font-size: 30px;
+  }
+  #applelogo {
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+  }
+  #introduction4 {
+    font-size: 18px;
+  }
+  #introduction4-2 {
+    font-size: 18px;
+  }
+  #learnmore {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  #purchase {
+    height: 36px;
+    width: 66px;
+    font-size: 14px;
+  }
+  #name5 {
+    font-size: 30px;
+  }
+  #introduction5 {
+    font-size: 18px;
+  }
+  #learnmore {
+  }
+  #name6 {
+    font-size: 30px;
+  }
+  #tradename {
+  }
+  #introduction6 {
+    font-size: 18px;
+  }
+  #learnmore3 {
+    height: 36px;
+    width: 150px;
+    font-size: 14px;
+  }
+  #slide {
+    height: 368px;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  #number1 {
+    background-image: url(./ts.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number2 {
+    background-image: url(./ts2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number3 {
+    background-image: url(./ts3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number4 {
+    background-image: url(./ts4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number5 {
+    background-image: url(./ts5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number6 {
+    background-image: url(./ts6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number7 {
+    background-image: url(./ts7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number8 {
+    background-image: url(./ts8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number9 {
+    background-image: url(./ts9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #number10 {
+    background-image: url(./ts10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 689px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+  #small-slides {
+    height: 194px;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    scroll-behavior: smooth;
+  }
+  #small1 {
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    display: flex;
+  }
+  #small2 {
+    background-image: url(./2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small3 {
+    background-image: url(./3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small4 {
+    background-image: url(./4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small5 {
+    background-image: url(./5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small6 {
+    background-image: url(./6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small7 {
+    background-image: url(./7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small8 {
+    background-image: url(./8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small9 {
+    background-image: url(./9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 161px;
+    width: 286px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small10 {
+    background-image: url(./10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #back1 {
+    background-color: rgb(20, 40, 56);
+    height: 161px;
+    width: 286px;
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: white;
+    position: relative;
+  }
+  #back2 {
+    height: 161px;
+    width: 286px;
+    background-color: #eae6e1;
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  /* #back3 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back4 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back5 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back6 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#back7 {
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+} */
+  #back8 {
+    height: 161px;
+    width: 286px;
+    background-color: rgb(64, 13, 14);
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #back10 {
+    height: 161px;
+    width: 286px;
+    background-color: rgb(38, 38, 38);
+    flex-shrink: 0;
+    font-size: 17px;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  #small-text1 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+  #small-text2 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+  #small-text8 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+  #small-text10 {
+    display: flex;
+    left: 150px;
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+  }
+
+  #all-text {
+    display: flex;
+    margin-top: 135px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
