@@ -193,10 +193,11 @@ a {
   gap: 16px;
 }
 #more1 {
-  color: white;
+  color: black;
+
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  background-color: #0071e3;
+  background-color: white;
   height: 44px;
   width: 123px;
   border-radius: 999px;
@@ -1532,11 +1533,18 @@ a {
   #third {
     background-image: url(./ph3.jpg);
   }
-  #text1 {
-    position: relative;
-    top: 470px;
-  }
+
   #text3 {
+    display: none;
+  }
+
+  #giftmagic {
+    display: none;
+  }
+  #holiday {
+    display: none;
+  }
+  #shopgifts {
     display: none;
   }
   #text3-tab {
@@ -1555,152 +1563,158 @@ a {
     font-weight: 400;
   }
   #text1 {
-  position: absolute;
-  top: 45px;
-  left: 50%;
-  translate: -50% 0;
-  width: 405px;
-  gap: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-#pro {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-  color: white;
-}
-#hello1 {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: white;
-  display: flex;
-}
-#learn {
-  display: flex;
-  gap: 16px;
-}
-#more {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  background-color: #0071e3;
-  height: 44px;
-  width: 123px;
-  border-radius: 999px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#buy {
-  color: #2997ff;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  height: 44px;
-  width: 68px;
-  border: 1px solid #2997ff;
-  border-radius: 999px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    position: absolute;
+    top: 490px;
+    left: 50%;
+    translate: -50% 0;
+    width: 405px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #pro {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+  }
+  #hello1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+  }
+  #learn {
+    display: flex;
+    gap: 16px;
+  }
+  #more {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: #0071e3;
+    height: 36px;
+    width: 107px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  #buy {
+    color: #2997ff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    height: 36px;
+    width: 66px;
+    border: 1px solid #2997ff;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
 
-#text2 {
-  position: absolute;
-  top: 45px;
-  left: 50%;
-  translate: -50% 0;
-  width: 405px;
-  gap: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-#normal {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 52px;
-  color: white;
-}
-#hello2 {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: white;
-  display: flex;
-}
-#learn1 {
-  display: flex;
-  gap: 16px;
-}
-#more1 {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  background-color: #0071e3;
-  height: 44px;
-  width: 123px;
-  border-radius: 999px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#buy1 {
-  color: #2997ff;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  height: 44px;
-  width: 68px;
-  border: 1px solid #2997ff;
-  border-radius: 999px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  #text2 {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    translate: -50% 0;
+    width: 405px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #normal {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    color: white;
+    font-size: 30px;
+  }
+  #hello2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+  }
+  #learn1 {
+    display: flex;
+    gap: 16px;
+  }
+  #more1 {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: white;
+    height: 36px;
+    width: 107px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  #buy1 {
+    color: #2997ff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    height: 36px;
+    width: 66px;
+    border: 1px solid #2997ff;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
 
-}
-#text3 {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 200px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  height: 164px;
-  width: 405px;
-  /* position: relative;
+  #text3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 164px;
+    width: 405px;
+    /* position: relative;
   top: 446px;
   left: 920px; */
-}
-#giftmagic {
-  font-size: 52px;
-  font-weight: 600;
-  font-family: "Inter", sans-serif;
-  font-style: bold;
-}
-#holiday {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-}
-#shopgifts {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Inter", sans-serif;
-  color: white;
-  background-color: #0071e3;
-  border-radius: 999px;
-  height: 44px;
-  width: 114px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  }
+  #giftmagic {
+    font-size: 52px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-style: bold;
+  }
+  #holiday {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  #shopgifts {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: #0071e3;
+    border-radius: 999px;
+    height: 44px;
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #other {
   }
   #one {
