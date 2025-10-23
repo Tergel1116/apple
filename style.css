@@ -1497,6 +1497,18 @@ a {
     margin-left: 10px;
     font-size: 14px;
   }
+  #pad-colorful {
+    color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+    font-family: "Inter", sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 20px;
+    background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    top: 390px;
+  }
 }
 /* mobile responsive */
 @media only screen and (max-width: 767px) {
@@ -1534,10 +1546,6 @@ a {
     background-image: url(./ph3.jpg);
   }
 
-  #text3 {
-    display: none;
-  }
-
   #giftmagic {
     display: none;
   }
@@ -1545,7 +1553,6 @@ a {
     display: none;
   }
   #shopgifts {
-    display: none;
   }
   #text3-tab {
     display: block;
@@ -1676,7 +1683,21 @@ a {
     align-items: center;
     font-size: 14px;
   }
-
+  #pad-colorful {
+    color: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+    font-family: "Inter", sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 14px;
+    background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    top: 400px;
+  }
+  #hello2-tab {
+    font-size: 18px;
+  }
   #text3 {
     display: flex;
     flex-direction: column;
@@ -1690,6 +1711,7 @@ a {
     /* position: relative;
   top: 446px;
   left: 920px; */
+    display: none;
   }
   #giftmagic {
     font-size: 52px;
@@ -1716,38 +1738,50 @@ a {
     align-items: center;
   }
   #other {
+    display: flex;
+    flex-direction: column;
   }
   #one {
+    display: flex;
+    flex-direction: column;
   }
   #two {
+    display: flex;
+    flex-direction: column;
   }
   #airpod4 {
     background-image: url(./pad1.jpg);
+    width: 100%;
   }
   #macbookair {
     background-image: url(./pad3.jpg);
     background-position: center;
     background-size: cover;
+    width: 100%;
   }
   #deal {
     background-image: url(./pad5.jpg);
     background-position: center;
     background-size: cover;
+    width: 100%;
   }
   #watch10 {
     background-image: url(./pad2.jpg);
     background-position: center;
     background-size: cover;
+    width: 100%;
   }
   #business {
     background-image: url(./pad4.png);
     background-position: center;
     background-size: cover;
+    width: 100%;
   }
   #trade {
     background-image: url(./pad6.jpg);
     background-position: center;
     background-size: cover;
+    width: 100%;
   }
   #name1 {
     font-size: 30px;
@@ -1851,7 +1885,7 @@ a {
     font-size: 14px;
   }
   #slide {
-    height: 368px;
+    height: 495px;
     width: 100vw;
     overflow-x: scroll;
     display: flex;
@@ -1861,81 +1895,81 @@ a {
     scroll-behavior: smooth;
   }
   #number1 {
-    background-image: url(./ts.jpg);
+    background-image: url(./mobile1.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
   #number2 {
-    background-image: url(./ts2.jpg);
+    background-image: url(./mobile2.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
   #number3 {
-    background-image: url(./ts3.jpg);
+    background-image: url(./mobile3.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
   #number4 {
-    background-image: url(./ts4.jpg);
+    background-image: url(./mobile4.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
   #number5 {
-    background-image: url(./ts5.jpg);
+    background-image: url(./mobile5.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
   #number6 {
-    background-image: url(./ts6.jpg);
+    background-image: url(./mobile6.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
   #number7 {
-    background-image: url(./ts7.jpg);
+    background-image: url(./mobile7.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
   #number8 {
-    background-image: url(./ts8.jpg);
+    background-image: url(./mobile8.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
@@ -1944,21 +1978,23 @@ a {
     background-image: url(./ts9.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
+    display: none;
   }
   #number10 {
     background-image: url(./ts10.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
-    width: 689px;
+    height: 495px;
+    width: 274px;
     object-fit: cover;
     scroll-snap-align: center;
     flex-shrink: 0;
+    display: none;
   }
   #small-slides {
     height: 194px;
